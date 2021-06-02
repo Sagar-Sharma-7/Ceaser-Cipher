@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Philosopher', sans-serif;
+}
+
+/* flex box */
+body, .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background: linear-gradient(to left top, #6FC5E7, #752BFF);
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.heading{
+    margin-bottom: 10vh;
+    font-size: 3em;
+}
+
+.container{
+    width: 60vw;
+    height: 50vh;
+    flex-direction: column;
+    background: rgba( 255, 255, 255, 0.15 );
+   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 10px;
+}
+
+.upperBox, .lowerBox{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lowerBox{
+    display: none;
+}
+
+.inp{
+    width: 80%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #000;
+    border-radius: 5px;
+    height: 30%;
+    font-size: 1em;
+    padding-left: 10%;
+}
+
+#inpLogo{
+    height: 30%;
+    margin-right: -10%;
+}
+
+button{
+    height: 10%;
+    border: none;
+    outline: none;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+button:hover{
+    color: #752BFF;
+}
+
+footer{
+    text-align: center;
+    background-color: #151515;
+    color: #fff;
+    padding: 2vh;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.fa-heart{
+    color: red;
+}
+
