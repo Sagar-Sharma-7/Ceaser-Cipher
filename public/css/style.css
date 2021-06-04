@@ -86,7 +86,7 @@ footer{
     background-color: #151515;
     color: #fff;
     padding: 2vh;
-    position: absolute;
+    position: fixed;
     bottom: 0%;
     width: 100%;
 }
@@ -98,5 +98,28 @@ footer a{
 
 .fa-heart{
     color: red;
+}
+
+@media all and (max-width:750px){
+    .container{
+        width: 80vw;
+        margin-bottom: 5vh;
+    }
+}
+
+@media all and (max-width:550px){
+    .container{
+        width: 92vw;
+    }
+}
+
+@media all and (max-height:380px){
+    body{
+        height: 150vh;
+    }
+    .container{
+        width: 90vw;
+        height: 100vh;
+    }
 }
 
