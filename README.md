@@ -1,5 +1,5 @@
 # Ceaser-Cipher
-## he action of a Caesar cipher is to replace each plaintext letter with a different one a fixed number of places down the alphabet.
+## The action of a Caesar cipher is to replace each plaintext letter with a different one a fixed number of places down the alphabet.
 <br>
 
 ## If you wanna try then click on the link below
